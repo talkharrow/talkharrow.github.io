@@ -1,0 +1,411 @@
+*{margin:0px; padding:0px;
+}
+body{
+
+	font-family:Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-weight:normal;
+	font-size:16px;
+	width:100%;
+	background:transparent;
+	margin:0px; padding:0px;
+	}
+.wrapper{
+		width:1024px;
+		margin: auto;
+		height:auto;
+		background-image: url('../images/PK.jpg');
+		background-size:cover;
+		background-repeat:no-repeat;
+		color:#fff;
+		background-attachment:fixed;
+		position: relative;
+		}
+.wrapper .header .logo,.social-media-icons{
+											display: inline-block;
+											}
+.wrapper .header .social-media-icons ul {
+								position:absolute;
+								left: 800px;
+								top:20px;
+							}
+.wrapper .header .social-media-icons ul li{
+									display: inline-block;
+									background:transparent;
+								 }
+.wrapper .header .logo{
+						width:30%;
+						background-color:#009999;
+						border-radius:0px 50px 0px 50px;
+						color:#fff;
+						height:110px;
+						text-align: center;
+					}
+.wrapper .header .logo h1{
+							position:relative;
+							top:20px;
+							font-size:42px;
+							font-weight: bold;
+						}
+
+.wrapper .navBar ul .active{
+		background: #e6005c;
+}
+.wrapper .navBar ul { list-style-type:none;
+			}
+
+.wrapper .navBar ul li {
+					float:left;
+					border:1px solid #fff;
+					height:40px;
+					line-height: 40px;
+					background-color:#fc6000;
+					position: relative;
+
+					 }
+
+.wrapper .navBar ul li a {
+					text-decoration: none;
+					padding:0px 21.65px;
+					color:#ffffff;
+					display: block;
+					}
+
+.wrapper .navBar ul li:hover {
+					 background: #e6005c;
+					}
+/*.wrapper .header .navBar ul,li:active{background: #e6005c;} */
+.wrapper .navBar ul li ul {
+					position: absolute;
+					display: none;
+					z-index: 1;
+
+					}
+
+.wrapper .navBar ul li:hover ul {
+						text-decoration:none;
+						display:block;
+						margin:0px;
+						padding:0px;
+						}
+.wrapper .navBar ul li:hover ul li {
+						background:#a64dff;	width:245px;
+						text-align: center;
+						font-size: 15px;
+						}
+.wrapper .navBar ul li:hover ul li a{
+							padding: 0px;
+}
+.wrapper .navBar ul li:hover:last-child ul li {
+							width:130px;
+							}
+.wrapper .navBar ul li:hover:first-child ul li {
+							width:182px;
+
+							}
+.wrapper .navBar ul li:hover:nth-child(2) ul li {
+							width:182px;
+
+							}
+.wrapper .navBar ul li:hover:nth-child(3) ul li {
+							width:182px;
+						}
+.wrapper .navBar ul li:hover:nth-child(4) ul li {
+							width:182px;
+						}
+.wrapper .navBar ul li:hover ul li:hover {
+							background-color: #ff6699;
+								}
+								.wrapper .maincontent .left,.right{
+							display:inline-block;
+
+								}
+.wrapper .maincontent {
+				position: relative;
+				top:49px;
+				width:100%;
+				height: 880px;
+				font-size: 17px;
+				 }
+.wrapper .maincontent .left{
+				 background-color:#ffcc99;
+				 width:24%;
+				 margin:0;
+				 padding: 0;
+				 position:absolute;
+				 top:38px;
+				 left:0px;
+				 color:#000;
+				 text-align: center;
+				}
+
+.wrapper .maincontent .left .top {
+						height: 640px;
+						padding:20px ;
+						padding-top: 50px;
+					}
+.wrapper .maincontent .left .email {
+							background-color:#009999;
+							padding:20px 50px;
+							color:#ffffff;
+							font-size: 15px;
+						}
+
+.wrapper .maincontent .contener{
+							height: 790px;
+							float:right;
+							background-color: #000;
+							opacity: .6;
+							width:75%;
+							left:-10px;
+							margin-top:0px;
+						}
+
+.wrapper .maincontent .right{
+						width:70%;
+						margin-bottom: 20px;
+						position: absolute;
+						top:2px;
+						left:300px;
+					}
+.wrapper .maincontent .right .Monday,.Tuesday,.Wednesday{
+												clear: both;
+												display: inline-block;
+												padding-left: 10px;
+												position: absolute;
+												top:50px;
+											}
+.wrapper .maincontent .right .Monday{
+									left:-40px;
+								}
+.wrapper .maincontent .right .Tuesday{
+								left:230px;
+								}
+.wrapper .maincontent .right .Wednesday{
+									left:455px;
+								}
+.wrapper .maincontent .right .group2{
+								margin-top: 20px;
+							}
+
+.wrapper .maincontent .right .Thursday,.Friday,.Saturday{
+													display: inline-block;
+													margin-left: -20px;
+													position: absolute;
+													top:530px;
+													}
+.wrapper .maincontent .right .Friday {
+								left:260px;
+							}
+.wrapper .maincontent .right .Saturday{
+								left:550px;
+							}
+.wrapper .maincontent .right h3 {
+							color: #ff0066;
+						}
+.wrapper .maincontent .right p1{
+							color:#48B9FA;
+							font-weight:bold;
+						}
+.wrapper .maincontent .right h4 {
+						text-decoration:underline;
+						}
+.wrapper .maincontent .right h4 a, h3 a{
+								color:#EA4545;
+}
+.wrapper .footer{
+			padding:5px;
+			text-align: center;
+			background-color:#fc6000;
+		}
+@media only screen and (max-width:900px)
+{
+body{
+	font-size:15px;
+
+	}
+.wrapper{
+		width: 750px;
+		min-width: 400px;
+	}
+.wrapper .header .logo	{
+						width:40%;
+						}
+
+.wrapper .header .social-media-icons ul {
+					position:absolute;
+					left: 540px;
+				}
+.wrapper .navBar ul li a {
+					padding:0px 5.23px;
+				}
+.wrapper .navBar ul li:hover:last-child ul li {
+										width:90px;
+										}
+.wrapper .maincontent {
+					height: 680px;
+					font-size: 12.5px;
+				}
+.wrapper .maincontent .left{
+						  width:26%;
+						  padding:0px;
+						 }
+.wrapper .maincontent .left .top {
+	  					padding:50px 10px 20px 10px;
+	  					height: 425px;
+						}
+.wrapper .maincontent .left .email {
+						padding:20px 10px;
+						}
+.wrapper .maincontent .contener{
+				float:right;
+				width:73.5%;
+				height: 580px;
+
+			}
+.wrapper .maincontent .right{
+						width:74%;
+						margin-bottom: 20px;
+						position: absolute;
+						left:193px;
+					}
+.wrapper .maincontent .right .Monday{
+									left:0px;
+								}
+.wrapper .maincontent .right .Tuesday{
+									left:200px;
+								}
+.wrapper .maincontent .right .Wednesday{
+									left:365px;
+								}
+.wrapper .maincontent .right .group2{
+								margin-top: 20px;
+}
+.wrapper .maincontent .right .Thursday,.Friday,.Saturday{
+													margin-left: 10px;
+											}
+.wrapper .maincontent .right .Thursday{
+									top:410px;
+}
+.wrapper .maincontent .right .Friday {
+								top:410px;
+								left:180px;
+							}
+.wrapper .maincontent .right .Saturday{
+								top:410px;
+								left:400px;
+							}
+}
+@media only screen and (max-width: 480px)
+{
+	.wrapper{
+		width:310px;
+		min-width:100px;
+		background-color: #fff;
+		font-size: 17px;
+		}
+.wrapper .header .logo,.social-media-icons{
+										display:block;
+										}
+
+.wrapper .header .social-media-icons ul {
+									left:100px;
+									top:110px;
+								}
+.wrapper .header .social-media-icons ul li{
+								display: inline-block;
+								background:transparent;
+							 }
+.wrapper .header .logo	{
+						width:100%;
+						border-radius: 0px;
+					}
+.wrapper .navBar {
+				width: 310px;
+}
+.wrapper .navBar ul li {
+						top:50px;
+						float:none;
+						text-align: center;
+					 }
+.wrapper .navBar ul li ul li {
+					top:0px;
+				}
+.wrapper .maincontent {
+					height: 1750px;
+					width:100%;
+				}
+.wrapper .maincontent .left{
+					 width:100%;
+					 top:2px;
+					 height: 260px;
+				}
+.wrapper .maincontent .left .top {
+						width:70%;
+						height: 40px;
+						padding: 20px 0px 0px 40px;
+					}
+.wrapper .maincontent .email {
+					position: relative;
+					top:1550px;
+					width: 93.6%;
+					padding:0px 50px;
+				}
+.wrapper .maincontent .contener{
+				height: 1700px;
+				top:480px;
+				width:100%;
+				left:0px;
+}
+
+.wrapper .maincontent .right{
+						width:100%;
+						margin-bottom: 20px;
+						position: absolute;
+						top:240px;
+						left:0px;
+					}
+.wrapper .maincontent .right .Monday,.Tuesday,.Wednesday{
+												clear: both;
+												display:block;
+												padding-left: 10px;
+												position: absolute;
+												top:40px;
+											}
+.wrapper .maincontent .right .Monday{
+									left:50px;
+								}
+.wrapper .maincontent .right .Tuesday{
+									left:50px;
+									top:350px;
+								}
+.wrapper .maincontent .right .Wednesday{
+									left:50px;
+									top:670px;
+								}
+.wrapper .maincontent .right .group2{
+								margin-top: 20px;
+							}
+
+.wrapper .maincontent .right .Thursday{
+									left: 50px;
+									top:880px;
+}
+
+.wrapper .maincontent .right .Thursday,.Friday,.Saturday{
+													display:block;
+
+													}
+.wrapper .maincontent .right .Friday {
+								left: 50px;
+								top:1050px;
+							}
+.wrapper .maincontent .right .Saturday{
+								left: 50px;
+								top:1250px;
+							}
+.wrapper .footer{
+			position: relative;
+			top:0px;
+
+			 }
+}

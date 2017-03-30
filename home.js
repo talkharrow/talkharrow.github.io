@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$(".navbtn").click(function(){
+	$("div.navBar").slideToggle();
+});
+});
+$(window).resize(function(){
+	if($(window).width()>480)
+	{
+		$(".navBar").removeAttr("style");
+	}
+});

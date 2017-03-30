@@ -1,0 +1,234 @@
+*{margin:0px; padding:0px;
+				}
+body{
+	font-family:Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-weight:normal;
+	font-size:16px;
+	width:100%;
+	background:transparent;
+	margin:0px; padding:0px;
+	}
+.wrapper{
+		width:1024px;
+		margin: auto;
+		height:auto;
+		background-image: url('../images/background4.jpe');
+		background-size:cover;
+		background-repeat:no-repeat;
+		color:#fff;
+		background-attachment:fixed;
+		position: relative;
+		}
+.wrapper .header .logo,.social-media-icons{
+											display: inline-block;
+											}
+.wrapper .header .social-media-icons ul {
+						position:absolute;
+						left: 800px;
+						top: 20px;
+					}
+.wrapper .header .social-media-icons ul li{
+						display: inline-block;
+						background:transparent;
+
+						 }
+
+.wrapper .header .logo	{
+						width:30%;
+						background-color:#009999;
+						border-radius:0px 50px 0px 50px;
+						color:#fff;
+						height:110px;
+						margin-right:7px;
+						text-align: center;
+						}
+
+.wrapper .header .logo h1{
+							position:relative;
+							top:20px;
+							font-weight: 900;
+							font-size:42px;
+							font-weight: bold;
+						}
+
+.navBar ul { list-style-type:none;
+			}
+
+.navBar ul li { float:left;
+				border:1px solid #fff;
+				height:40px;
+				line-height: 40px;
+				background-color:#fc6000;
+				position: relative;
+
+				 }
+
+.navBar ul li a { text-decoration: none;
+				padding:0px 21.65px;
+				color:#ffffff;
+				display: block;
+				}
+
+.navBar ul li:hover { background: #e6005c;
+					}
+/*.wrapper .header .navBar ul,li:active{background: #e6005c;} */
+.navBar ul li ul {
+					position: absolute;
+					display: none;
+					z-index: 1;
+
+					}
+
+.navBar ul li:hover ul {
+						text-decoration:none;
+						display:block;
+						margin:0px;
+						padding:0px;
+						}
+.navBar ul li:hover ul li {
+						background:#a64dff;	width:245px;
+						text-align: center;
+						font-size: 15px;
+						}
+.wrapper .navBar ul li:hover ul li a{
+							padding: 0px;
+}
+.wrapper .navBar ul li:hover:last-child ul li {
+							width:130px;
+							}
+.wrapper .navBar ul li:hover:first-child ul li {
+							width:182px;
+
+							}
+.wrapper .navBar ul li:hover:nth-child(2) ul li {
+							width:182px;
+
+							}
+.wrapper .navBar ul li:hover:nth-child(3) ul li {
+							width:182px;
+						}
+.wrapper .navBar ul li:hover:nth-child(4) ul li {
+							width:182px;
+						}
+.wrapper .navBar ul li:hover ul li:hover {
+							background-color: #ff6699;
+								}
+.maincontent{
+			height: 750px;
+			position: relative;
+			top:50px;
+}
+.maincontent img{
+				margin-top: 0px;
+				display: inline-block;
+				padding-left:20px;
+				margin: 30px;
+				margin-left:200px;
+
+}
+/*.maincontent figcaption{
+					display: inline-block;
+					margin-top:-60px;
+					margin-left: -160px;
+}*/
+.maincontent .email{
+				float: left;
+				margin-top:-20px;
+				background-color:#009999;
+				color:#ffffff;
+				text-align: center;
+				 width: 30%;
+				font-size: 20px;
+				 padding:15px 5px;
+				}
+.wrapper .footer{
+			padding:5px;
+			text-align: center;
+			background-color:#fc6000;
+		}
+@media only screen and (max-width:900px)
+{
+body{
+	font-size:15px;
+
+	}
+.wrapper{
+		width: 750px;
+		min-width: 400px;
+	}
+.wrapper .header .logo	{
+						width:40%;
+						}
+
+.wrapper .header .social-media-icons ul {
+					position:absolute;
+					left: 540px;
+				}
+
+.wrapper .navBar ul li a {
+					padding:0px 5.23px;
+				}
+.wrapper .navBar ul li:hover:last-child ul li {
+										width:90px;
+									}
+.maincontent{
+			height: 850px;
+			}
+.maincontent a img{
+				padding-left:5px;
+			}
+
+.maincontent .email{
+			margin-top:20px;
+			}
+}
+@media only screen and (max-width:480px)
+{
+.wrapper{
+		width:310px;
+		min-width:100px;
+		}
+.wrapper .header .logo,.social-media-icons{
+										display:block;
+										}
+
+.wrapper .header .social-media-icons ul {
+									left:100px;
+									top:110px;
+								}
+.wrapper .header .logo	{
+						width:310px;
+						border-radius: 0px;
+					}
+
+.wrapper .navBar {
+				width: 310px;
+}
+.wrapper .navBar ul li {
+						top:50px;
+						float:none;
+						text-align: center;
+					 }
+.wrapper .navBar ul li ul li {
+					top:0px;
+				}
+.maincontent{
+			height: 1200px;
+			top:50px;
+}
+.maincontent a img{
+				padding-left:10px;
+				margin: 30px;
+				width:100px;
+				height: 100px;
+
+}
+.maincontent figcaption{
+					margin-left: -156px;
+}
+.maincontent .email{
+				float: left;
+				width: 97%;
+				margin-top: 79px;
+				}
+}
